@@ -1,0 +1,16 @@
+.card-container {
+    display: flex; 
+    gap: 10px; 
+    background-color: white;
+    border-shadow:Black;
+
+  }
+  
+  .example-card {
+    width: 400px; 
+    height: 400px; 
+    margin: 20px; 
+    justify-content: center;
+    align-items: center;
+    
+  }

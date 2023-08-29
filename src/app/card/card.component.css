@@ -1,6 +1,9 @@
 .card-container {
     display: flex; 
     gap: 10px; 
+    background-color: white;
+    border-shadow:Black;
+
   }
   
   .example-card {
@@ -9,5 +12,5 @@
     margin: 20px; 
     justify-content: center;
     align-items: center;
+    
   }
-  

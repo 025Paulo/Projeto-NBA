@@ -8,19 +8,17 @@ import { PrincipalComponent } from './principal/principal.component';
 import { CardComponent } from './card/card.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { JogadoresComponent } from './jogadores/jogadores.component';
-import { TimesComponent } from './times/times.component';
 import { LendasComponent } from './lendas/lendas.component';
 import { FooterComponent } from './footer/footer.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PrincipalComponent,
-    TimesComponent,
-    LendasComponent,
     FooterComponent,
-    
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,6 +26,7 @@ import { FooterComponent } from './footer/footer.component';
     BrowserAnimationsModule,
     CardComponent,
     JogadoresComponent,
+    LendasComponent,
     NavbarComponent
   ],
   providers: [],
